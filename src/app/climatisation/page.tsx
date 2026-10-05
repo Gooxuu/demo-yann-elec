@@ -37,7 +37,7 @@ export default function Page() {
   ensureActive(service);
   return (
     <>
-      <SplitHero size="md" eyebrow={service.title} title={CONTENT.title} text={service.teaser} photo={STOCK_PHOTOS[service.photo]} />
+      <SplitHero size="md" badge="" eyebrow={service.title} title={CONTENT.title} text={service.teaser} photo={STOCK_PHOTOS[service.photo]} />
 
       <section className="py-20 sm:py-28">
         <Container className="grid items-center gap-12 lg:grid-cols-2">

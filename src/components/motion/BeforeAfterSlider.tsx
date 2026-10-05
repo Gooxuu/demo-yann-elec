@@ -16,7 +16,7 @@ const LABEL =
   "pointer-events-none absolute top-4 z-10 rounded-full bg-brand-deep/75 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white";
 
 /**
- * Comparaison avant/après par glissement (souris, doigt ou flèches du clavier).
+ * Comparaison après/avant par glissement (l'après à gauche, l'avant à droite) (souris, doigt ou flèches du clavier).
  * react-compare-slider gère le tactile, le clavier et l'accessibilité ; on compose ses briques pour
  * donner à la poignée un libellé en français (celui par défaut est en anglais).
  *
@@ -32,19 +32,19 @@ export default function BeforeAfterSlider({ before, after, className = "" }: Pro
     <Slider.Provider {...slider}>
       <Slider.Root className={`relative overflow-hidden rounded-3xl ${className}`}>
         <Slider.Item item="itemOne">
-          <Slider.Image src={asset(before.src)} alt={before.alt} loading="lazy" decoding="async" />
+          <Slider.Image src={asset(after.src)} alt={after.alt} loading="lazy" decoding="async" />
         </Slider.Item>
         <Slider.Item item="itemTwo">
-          <Slider.Image src={asset(after.src)} alt={after.alt} loading="lazy" decoding="async" />
+          <Slider.Image src={asset(before.src)} alt={before.alt} loading="lazy" decoding="async" />
         </Slider.Item>
         <Slider.HandleRoot aria-label="Glisser ou utiliser les flèches du clavier pour comparer avant et après">
           <Slider.Handle />
         </Slider.HandleRoot>
         <span aria-hidden="true" className={`${LABEL} left-4`}>
-          Avant
+          Après
         </span>
         <span aria-hidden="true" className={`${LABEL} right-4`}>
-          Après
+          Avant
         </span>
       </Slider.Root>
     </Slider.Provider>
