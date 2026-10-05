@@ -15,7 +15,7 @@ import { STOCK_PHOTOS } from "@/lib/stockPhotos";
 const HERO = {
   eyebrow: "Électricien à Elne · Pyrénées-Orientales",
   title: "Votre électricien à Elne, du neuf à la rénovation",
-  text: "Installation neuve, rénovation, dépannage, domotique et bornes de recharge : un artisan, joignable directement.",
+  text: "Installation neuve, rénovation et mise aux normes, dépannage, domotique, climatisation et bornes de recharge : un artisan, devis gratuits.",
 };
 
 const STEPS: readonly Step[] = [

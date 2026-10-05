@@ -65,7 +65,7 @@ export const SERVICES: readonly Service[] = [
     icon: "snow",
     highlight: false,
     photo: "climatisation",
-    actif: false,
+    actif: true,
   },
   {
     slug: "chauffage-electrique",

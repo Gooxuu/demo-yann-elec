@@ -67,6 +67,7 @@ export type Certification = { id: string; label: string; detail: string };
 
 /** Certifications réelles, affichées en badges texte (jamais les logos officiels). Liste vide = section masquée. */
 export const CERTIFICATIONS: readonly Certification[] = [
+  { id: "decennale", label: "Garantie décennale", detail: "Assurance à jour" },
 ];
 
 export type Testimonial = { quote: string; source: string };
@@ -113,12 +114,12 @@ export type Legal = {
 };
 
 /** Mentions légales. Champ vide = « Communiqué à la mise en ligne » (démo). */
-// À LA LIVRAISON : informations légales de l'entreprise (raison sociale, forme juridique, SIRET, directeur de la publication)
+// À LA LIVRAISON : vérifier les informations légales avec l’artisan
 export const LEGAL: Legal = {
-  companyName: "",
-  legalForm: "",
-  siret: "",
-  publisher: "",
+  companyName: "YANN.ELEC",
+  legalForm: "Entreprise individuelle",
+  siret: "830 838 447 00027",
+  publisher: "Yann Rubion",
   // À LA LIVRAISON : vérifier l'hébergeur (autre si domaine ou hébergement différent)
   hostName: "GitHub, Inc. (GitHub Pages)",
   hostAddress: "88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis",
