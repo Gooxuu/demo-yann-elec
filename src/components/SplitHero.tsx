@@ -24,7 +24,7 @@ const delay = (seconds: number) => ({ "--rise-delay": `${seconds}s` }) as CSSPro
  * Héros en deux colonnes : texte et boutons d'appel à gauche, image à droite. Le texte n'est jamais posé
  * sur l'image, quelle qu'elle soit. Entrée progressive en CSS pur, motif circuit en fond.
  */
-export default function SplitHero({ eyebrow, title, text, photo, size = "lg", badge = "" }: Props) {
+export default function SplitHero({ eyebrow, title, text, photo, size = "lg", badge = "Certifié IRVE" }: Props) {
   return (
     <section className="relative isolate overflow-hidden bg-brand-deep text-white">
       <Container

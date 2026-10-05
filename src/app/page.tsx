@@ -27,7 +27,7 @@ const STEPS: readonly Step[] = [
 export default function Home() {
   return (
     <>
-      <SplitHero {...HERO} photo={STOCK_PHOTOS.hero} />
+      <SplitHero {...HERO} photo={STOCK_PHOTOS.hero} badge="" />
 
       <section className="py-20 sm:py-28">
         <Container>
