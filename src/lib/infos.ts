@@ -21,8 +21,7 @@ export const PHONE_DISPLAY = "07 81 53 28 15";
 export const PHONE_E164 = "+33781532815";
 export const PHONE_TEL = telHref(PHONE_E164);
 
-// À REMPLACER : e-mail
-export const EMAIL = "contact@example.com";
+export const EMAIL = "julesjade@hotmail.com";
 export const EMAIL_MAILTO = `mailto:${EMAIL}`;
 
 /** false si le numéro n'est pas sur WhatsApp : le bouton disparaît partout. */
