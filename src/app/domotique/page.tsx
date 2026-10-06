@@ -19,9 +19,9 @@ const CONTENT = {
   heading: "Une maison plus confortable et plus économe",
   intro: "Nous rendons votre éclairage, votre chauffage et vos ouvertures pilotables depuis votre téléphone.",
   points: [
-    "Éclairage connecté et scénarios d’ambiance",
-    "Chauffage programmable pièce par pièce",
-    "Motorisation de volets roulants et de portail",
+    "Étude de vos besoins et des équipements utiles",
+    "Pose et raccordement des équipements connectés",
+    "Réglages et prise en main avec vous",
     "Commande à distance depuis votre téléphone",
   ],
   before: STOCK_PHOTOS.domotiqueAvant,

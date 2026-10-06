@@ -21,9 +21,9 @@ const CONTENT = {
   intro: "Nous vous conseillons sur l’appareil et l’emplacement les plus adaptés à vos pièces.",
   points: [
     "Conseil sur le type d’appareil selon la surface et l’usage",
-    "Pose de climatisations réversibles, mono-split ou multi-split",
-    "Installation de pompes à chaleur air/air",
-    "Mise en service, réglages et entretien",
+    "Pose de climatisation",
+    "Raccordement électrique et protections dédiées",
+    "Mise en service et réglages avec vous",
   ],
   before: STOCK_PHOTOS.climatisationAvant,
   after: STOCK_PHOTOS.climatisationApres,

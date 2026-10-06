@@ -20,7 +20,7 @@ const CONTENT = {
   intro: "Nous étudions votre installation électrique avant de vous proposer la borne et l’emplacement les plus adaptés.",
   points: [
     "Étude de votre installation électrique et du meilleur emplacement",
-    "Pose de bornes murales à domicile, en copropriété ou en entreprise",
+    "Pose de bornes murales à votre domicile",
     "Raccordement au tableau avec des protections dédiées",
     "Mise en service et prise en main de la borne",
   ],
